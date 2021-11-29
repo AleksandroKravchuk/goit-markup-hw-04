@@ -157,6 +157,16 @@ text-decoration: none;
 .list-contakts .item +.item {
    margin-left: 50px;
 }
+/* .contakts-nave::before {
+   width: 50px;
+   min-height: 50px;
+   content: " ";
+   background-image: url(../images/Vector.svg);
+   background-size: contain; 
+   margin-right: 10px;
+   background-position: center;
+} */
+   
 
 /* Main block*/
 /* Hero */
