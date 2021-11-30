@@ -163,7 +163,6 @@ text-decoration: none;
 /* Hero */
 
 .section-hero {
-  
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -171,15 +170,15 @@ text-decoration: none;
    height: 600px;
    margin-left: auto;
    margin-right: auto;
-   /* background-image: linear-gradient(to right
-   rgba(47, 48, 58, 0.4);
-   ); */
-   /* background: rgba(47, 48, 58, 0.4); */
-   background-image: url(../images/Img\ \(16\)\ \(1\).jpg);
+   background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+   ), url(../images/Img\ \(16\)\ \(1\).jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-color: var(--footer-fone-color);
+   background-color: var(--footer-fone-color); */
 }
 .hero-name {
    color: var(--header-fone-color);
