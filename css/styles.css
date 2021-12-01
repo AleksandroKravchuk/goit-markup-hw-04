@@ -178,7 +178,7 @@ text-decoration: none;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-color: var(--footer-fone-color); */
+   background-color: var(--footer-fone-color);
 }
 .hero-name {
    color: var(--header-fone-color);
@@ -213,9 +213,6 @@ text-decoration: none;
 
 /* section-advantages */
 
-.hidden {
-   display: none;
-}
 .section-advantages {
    padding-top: 94px;
    padding-bottom: 94px;
