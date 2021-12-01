@@ -145,6 +145,7 @@ text-decoration: none;
    line-height: 1.2;
    letter-spacing: 0.02em;
    text-decoration: none;
+   display: block;
 }
 .contakts-nave:hover,
 .contakts-nave:focus {
@@ -301,7 +302,24 @@ text-decoration: none;
    border-radius: 0px 0px 4px 4px;
    text-align: center;
 }
-
+.our-clients {
+   padding-top: 94px;
+   padding-bottom: 94px;
+   text-align: center;
+}
+.clients {
+   display: flex;
+  
+}
+.brend {
+   width: 170px;
+   height: 92px;
+   border: 1px solid #AFB1B8;
+   border-radius: 4px;
+}
+.brend:not(:last-child) {
+   margin-right: 30px;
+}
 
 /* portfolio */
 /* Наши работы */
