@@ -464,10 +464,11 @@ text-decoration: none;
 .link-contakts:not(:last-child) {
    margin-bottom: 9px;
 }
-.footer-content {
-   display: flex; 
-  
-}
+
+.footer-sektion>.container {
+display: flex;
+}   
+
 .join {
 font-weight   : bold;
 font-size     : 14px;
