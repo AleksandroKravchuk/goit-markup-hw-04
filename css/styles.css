@@ -259,6 +259,8 @@ text-decoration: none;
    background: #F5F4FA;
    border-radius: 4px;
    margin-bottom: 30px;
+   text-align: center;
+   padding-top: 25px;
 }
 
 
@@ -322,17 +324,23 @@ text-decoration: none;
    margin-right: 10px;
    padding-bottom: 0;
 }
-.icon {
+.social-link {
+   display: block;
+   width: 44px;
+   height: 44px;
    background-color:var(--header-fone-color);
-   fill: #AFB1B8;
    border-radius: 50%;
+   fill: #AFB1B8;
    text-align: center;
+   padding-top: 12px;
+
 }
-.icon:hover,
-.icon:focus {
-   background-color: #2196F3;
+.social-link:hover,
+.social-link:focus {
+   background-color: var(--accent-color);
    fill: var(--header-fone-color);
 }
+
 
 
 /* Our clients */
@@ -412,7 +420,7 @@ text-decoration: none;
 
 /* Card */
 
-.link-card>.card-content>.title-of-works {
+.title-of-works {
    font-weight: bold;
    font-size  : 18px;
    line-height: 2;
@@ -451,6 +459,7 @@ text-decoration: none;
 }
 .link-card {
    text-decoration: none;
+   color:inherit;
 }
 
 
@@ -508,23 +517,18 @@ padding-top: 12px;
    margin-left: 70px;
 }
 .icon-link {
-   display      : inline-block;
-   padding      : 0;
-   margin-bottom: 0;
-   text-align: center;
+ display         : block;
+ width           : 44px;
+ height          : 44px;
+ background-color:rgba(255, 255, 255, 0.1);;
+ border-radius   : 50%;
+ fill            : var(--header-fone-color);
+ text-align      : center;
+ margin-top: 20px;
+ padding-top     : 12px;
 }
 
-.icon-footer {
-   background: rgba(255, 255, 255, 0.1);
-   margin-top      : 20px;
-   border-radius   : 50%;
-   align-items: center;
-   fill: var(--header-fone-color);
-   padding: 14px 0px 0px 14px;
-
-}
-
-.icon-footer:hover,
-.icon-footer:focus {
+.icon-link:hover,
+.icon-link:focus {
    background-color:var(--accent-color)
 }
