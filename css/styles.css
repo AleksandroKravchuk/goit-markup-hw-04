@@ -150,6 +150,7 @@ text-decoration: none;
 .contakts-nave:hover,
 .contakts-nave:focus {
    color: var(--accent-color);
+   fill: var(--accent-color);
 }
 .list-contakts {
    display: flex;
@@ -161,10 +162,6 @@ text-decoration: none;
 .contakts-item {
    margin-right:  10px;
    color: var(--text-color);
-}
-.contakts-item:hover,
-.contakts-item:focus {
-   color: var(--accent-color);
 }
 
 /* Main block*/
@@ -399,8 +396,8 @@ text-decoration: none;
   background-color:var(--accent-color);
   color:var(--header-fone-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 1px 2px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12);
+   0px 1px 2px rgba(0, 0, 0, 0.08),
+   0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list-button {
    display: flex;
@@ -415,7 +412,7 @@ text-decoration: none;
 
 /* Card */
 
-.title-of-works {
+.link-card>.card-content>.title-of-works {
    font-weight: bold;
    font-size  : 18px;
    line-height: 2;
@@ -432,6 +429,11 @@ text-decoration: none;
    margin-top: var(--card-set);
    margin-left: var(--card-set);
 }
+.card:hover {
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+   0px 4px 4px rgba(0, 0, 0, 0.06),
+   1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .list-card {
    display: flex;
    flex-wrap: wrap;
@@ -447,6 +449,10 @@ text-decoration: none;
    border-bottom: 1px solid #EEEEEE;
    border-left: 1px solid #EEEEEE;
 }
+.link-card {
+   text-decoration: none;
+}
+
 
 /* Footer */
 .footer-sektion {
