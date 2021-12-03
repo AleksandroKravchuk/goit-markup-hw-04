@@ -158,7 +158,14 @@ text-decoration: none;
 .list-contakts .item +.item {
    margin-left: 50px;
 }
-
+.contakts-item {
+   margin-right:  10px;
+   color: var(--text-color);
+}
+.contakts-item:hover,
+.contakts-item:focus {
+   color: var(--accent-color);
+}
 
 /* Main block*/
 /* Hero */
@@ -249,6 +256,14 @@ text-decoration: none;
    text-align: center;
    margin-bottom: 50px;
 }
+.emblem {
+   width: 270px;
+   height: 120px;
+   background: #F5F4FA;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
 
 
 /* section-work */
@@ -294,8 +309,8 @@ text-decoration: none;
    margin-right : var(--card-set);
 }
 .team-content {
-   padding-top: 30px;
-   padding-bottom: 30px;
+  background-color: var(--header-fone-color);
+   padding: 30px 32px;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
    0px 1px 1px rgba(0, 0, 0, 0.14),
    0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -303,23 +318,23 @@ text-decoration: none;
    text-align: center;
 }
 .icon-list {
-   display: inline-block;
-   padding: 0;
-   margin-bottom:0;
-   
+   display: flex;
+   margin-top: 16px;
 }
-.icon-list:not(:last-child) {
+.social-icon:not(:last-child) {
    margin-right: 10px;
+   padding-bottom: 0;
 }
 .icon {
-   background-color: #2196F3;
-   margin-top: 16px;
+   background-color:var(--header-fone-color);
+   fill: #AFB1B8;
    border-radius: 50%;
    text-align: center;
 }
 .icon:hover,
 .icon:focus {
-   background-color: chartreuse;
+   background-color: #2196F3;
+   fill: var(--header-fone-color);
 }
 
 
