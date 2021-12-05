@@ -145,7 +145,8 @@ text-decoration: none;
    line-height: 1.2;
    letter-spacing: 0.02em;
    text-decoration: none;
-   display: block;
+   display: flex;
+   align-items: center;
 }
 .contakts-nave:hover,
 .contakts-nave:focus {
@@ -209,11 +210,7 @@ text-decoration: none;
    border-radius: 4px;
    text-align: center;
 }
-.button-main:hover,
-.button-main:focus {
-   background-color:var(--button-color);
-   color:var(--button-text-color);
-}
+
 
 
 /* section-advantages */
@@ -259,8 +256,9 @@ text-decoration: none;
    background: #F5F4FA;
    border-radius: 4px;
    margin-bottom: 30px;
-   text-align: center;
-   padding-top: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
@@ -356,25 +354,27 @@ text-decoration: none;
 .brend {
    width: 170px;
    height: 92px;
-   border: 1px solid #AFB1B8;
+   display: flex;
    border-radius: 4px;
 }
 .brend:not(:last-child) {
    margin-right: 30px;
 }
 .icon-box {
-   display: inline-block;
-   fill: #AFB1B8;
+   display: flex;
    margin: 16px 32px;
 }
-.brend:hover,
-.brend:focus {
-   border: 1px solid var(--accent-color);
+
+.list-brend {
+   border: 1px solid #AFB1B8;
+   fill: #AFB1B8;
 }
-.icon-box:hover,
-.icon-box:focus {
+.list-brend:hover,
+.list-brend:focus {
+   border: 1px solid var(--accent-color);
    fill:var(--accent-color) ;
 }
+
 
 /* portfolio */
 /* Наши работы */
@@ -398,6 +398,7 @@ text-decoration: none;
    text-align: center;
    border-radius: 4px;
    padding: 6px 22px;
+   border: none;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -437,11 +438,7 @@ text-decoration: none;
    margin-top: var(--card-set);
    margin-left: var(--card-set);
 }
-.card:hover {
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-   0px 4px 4px rgba(0, 0, 0, 0.06),
-   1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .list-card {
    display: flex;
    flex-wrap: wrap;
@@ -458,8 +455,15 @@ text-decoration: none;
    border-left: 1px solid #EEEEEE;
 }
 .link-card {
+   display: block;
    text-decoration: none;
    color:inherit;
+}
+.link-card:hover,
+.link-card:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -497,6 +501,7 @@ text-decoration: none;
 
 .footer-sektion>.container {
 display: flex;
+align-items: baseline;
 }   
 
 .join {
@@ -505,7 +510,6 @@ font-size     : 14px;
 line-height   : 1.14;
 text-transform: uppercase;
 color: var(--header-fone-color);
-padding-top: 12px;
 }
 .icon-list-footer {
    display: flex;
